@@ -6,16 +6,16 @@ using namespace std;
 
 int main()
 {
-    int n;
+    int number;
     cout << "Enter the length of one wings : ";
-    cin >> n;
-    for (int i = 1; i <= n; i++)
+    cin >> number;
+    for (int i = 1; i <= number; i++)
     {
         for (int j = 1; j <= i; j++)
         {
             cout << " * ";
         }
-        int space = (2 * n) - (2 * i);
+        int space = (2 * number) - (2 * i);
         for (int j = 1; j <= space; j++)
         {
             cout << "   ";
@@ -26,13 +26,13 @@ int main()
         }
         cout << endl;
     }
-    for (int i = n; i >=1; i--)
+    for (int i = number; i >=1; i--)
     {
         for (int j = 1; j <= i; j++)
         {
             cout << " * ";
         }
-        int space = (2 * n) - (2 * i);
+        int space = (2 * number) - (2 * i);
         for (int j = 1; j <= space; j++)
         {
             cout << "   ";
